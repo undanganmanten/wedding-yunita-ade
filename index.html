@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ade &#9829; Yunita</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+
     <link rel="shortcut icon" href="asset/image/favicon.ico" type="image/x-icon">
     <script src="https://code.jquery.com/jquery-2.1.4.min.js" integrity="sha256-8WqyJLuWKRBVhxXIL1jBDD7SDxU936oZkCnxQbWwJVw=" crossorigin="anonymous"></script> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -15,6 +16,16 @@
     <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-database.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.12/css/lightgallery.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.12/dist/js/lightgallery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lg-thumbnail/1.1.0/lg-thumbnail.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lg-fullscreen/1.1.0/lg-fullscreen.min.js"></script>
+
+
+
 </head>
 
 <body onload="toggle(),create_unfinished_task()">
@@ -323,22 +334,99 @@
     </div> -->
 
 
+
+
+    <!-- <div class="demo-gallery">
+        <div class="card_wrapper">
+            <div class="card">
+                <img src="asset/image/galerry/1/1.JPG" alt="">
+            </div>
+            <div class="card">
+                <img src="asset/image/galerry/1/2.JPG" alt="">
+            </div>
+            <div class="card">
+                <img src="asset/image/galerry/1/3.JPG" alt="">
+            </div>
+            <div class="card">
+                <img src="asset/image/galerry/1/4.JPG" alt="">
+            </div>
+            <div class="card">
+                <img src="asset/image/galerry/1/5.JPG" alt="">
+            </div>
+            <div class="card">
+                <img src="asset/image/galerry/1/6.JPG" alt="">
+            </div>
+            <div class="card">
+                <img src="asset/image/galerry/1/7.JPG" alt="">
+            </div>
+        </div>
+    </div> -->
+   
+
+
+
     <div class="amplop" style="margin-top: 30px;">
         <div class="amplop-title" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="3000">Gallery Photo</div>
     </div>  
-    <div class="gallery-photo"  data-aos="fade-up" data-aos-easing="linear" data-aos-duration="3000">
+    <div class="body-light">
+        <div class="demo-gallery">
+            <ul id="lightgallery" class="card_wrapper" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="3000">
+                <li data-src="https://undanganmanten.my.id/wedding-yunita-ade/asset/image/galerry/1-min.jpg">
+                    <a class="card" href="">
+                        <img class="img-responsive" src="asset/image/galerry/1-min.jpg">
+                    </a>
+                </li>
+                <li data-src="https://undanganmanten.my.id/wedding-yunita-ade/asset/image/galerry/2-min.jpg">
+                    <a class="card" href="">
+                        <img class="img-responsive" src="asset/image/galerry/2-min.jpg">
+                    </a>
+                </li>
+                <li data-src="https://undanganmanten.my.id/wedding-yunita-ade/asset/image/galerry/3-min.jpg">
+                    <a class="card" href="">
+                        <img class="img-responsive" src="asset/image/galerry/3-min.jpg">
+                    </a>
+                </li>
+                <li data-src="https://undanganmanten.my.id/wedding-yunita-ade/asset/image/galerry/4-min.jpg">
+                    <a class="card" href="">
+                        <img class="img-responsive" src="asset/image/galerry/4-min.jpg">
+                    </a>
+                </li>
+                <li data-src="https://undanganmanten.my.id/wedding-yunita-ade/asset/image/galerry/5-min.jpg">
+                    <a class="card" href="">
+                        <img class="img-responsive" src="asset/image/galerry/5-min.jpg">
+                    </a>
+                </li>
+                <li data-src="https://undanganmanten.my.id/wedding-yunita-ade/asset/image/galerry/6-min.jpg">
+                    <a class="card" href="">
+                        <img class="img-responsive" src="asset/image/galerry/6-min.jpg">
+                    </a>
+                </li>
+                <li data-src="https://undanganmanten.my.id/wedding-yunita-ade/asset/image/galerry/7-min.jpg">
+                    <a class="card" href="">
+                        <img class="img-responsive" src="asset/image/galerry/7-min.jpg">
+                    </a>
+                </li>
+                <li data-src="https://undanganmanten.my.id/wedding-yunita-ade/asset/image/galerry/8-min.jpg">
+                    <a class="card" href="">
+                        <img class="img-responsive" src="asset/image/galerry/8-min.jpg">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- <div class="gallery-photo"  data-aos="fade-up" data-aos-easing="linear" data-aos-duration="3000">
         <div style="--swiper-navigation-color: rgb(231, 184, 44); --swiper-pagination-color: #fff" class="swiper mySwiper2">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <img src="asset/image/galerry/1-min.jpg">
-                </div>
+                </div> -->
                 <!-- <div class="swiper-slide">
                     <img src="asset/image/galerry/2-min.jpg">
                 </div> -->
                 <!-- <div class="swiper-slide">
                     <img src="asset/image/galerry/3-min.jpg">
                 </div> -->
-                <div class="swiper-slide">
+                <!-- <div class="swiper-slide">
                     <img src="asset/image/galerry/4-min.jpg">
                 </div>
                 <div class="swiper-slide">
@@ -349,11 +437,11 @@
                 </div>
                 <div class="swiper-slide">
                     <img src="asset/image/galerry/7-min.JPG">
-                </div>
+                </div> -->
                 <!-- <div class="swiper-slide">
                     <img src="asset/image/galerry/8-min.JPG">
                 </div> -->
-            </div>
+            <!-- </div>
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
         </div>
@@ -361,14 +449,14 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <img src="asset/image/galerry/1-min.jpg">
-                </div>
+                </div> -->
                 <!-- <div class="swiper-slide">
                     <img src="asset/image/galerry/2-min.jpg">
                 </div> -->
                 <!-- <div class="swiper-slide">
                     <img src="asset/image/galerry/3-min.jpg">
                 </div> -->
-                <div class="swiper-slide">
+                <!-- <div class="swiper-slide">
                     <img src="asset/image/galerry/4-min.jpg">
                 </div>
                 <div class="swiper-slide">
@@ -379,13 +467,13 @@
                 </div>
                 <div class="swiper-slide">
                     <img src="asset/image/galerry/7-min.JPG">
-                </div>
+                </div> -->
                 <!-- <div class="swiper-slide">
                     <img src="asset/image/galerry/8-min.JPG">
                 </div> -->
-            </div>
+            <!-- </div>
         </div>
-    </div>
+    </div> -->
 
     <div class="wish-img" data-aos="fade-up" data-aos-duration="3000">
         <img src="asset/image/wish.png" alt="">
@@ -493,6 +581,11 @@
                 btnKirim.classList.toggle('d-none');
             })
         })
+
+        $(document).ready(function() {
+            $("#lightgallery").lightGallery(); 
+        });
+
       </script>
 </body>
 </html>

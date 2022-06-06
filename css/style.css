@@ -1997,3 +1997,72 @@ input[type="radio"] {
   }
 
 } 
+
+/* 
+.body-light {
+  background: transparent;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
+} */
+
+
+.demo-gallery {
+  width: 85%;
+  margin: 0 auto;
+}
+
+/* .demo-gallery > ul {
+  margin-bottom: 0;
+  padding-left: 15px;
+} */
+
+.demo-gallery > ul > li {
+/*   margin-bottom: 15px; */
+  /* width: 180px; */
+  display: inline-block;
+/*   margin-right: 15px; */
+  list-style: outside none none;
+}
+
+/* .demo-gallery > ul > li a {
+  border: 3px solid #FFF;
+  border-radius: 3px;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  float: left;
+} */
+
+/* .demo-gallery > ul > li a > img {
+  -webkit-transition: -webkit-transform 0.15s ease 0s;
+  -moz-transition: -moz-transform 0.15s ease 0s;
+  -o-transition: -o-transform 0.15s ease 0s;
+  transition: transform 0.15s ease 0s;
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  height: 100%;
+  width: 100%;
+} */
+
+/* .demo-gallery.dark > ul > li a {
+  border: 3px solid #04070a;
+}
+
+.grid-item {
+  float: left;
+  border: 2px solid hsla(0, 0%, 0%, 0.5);
+  margin-bottom: 20px;
+}
+
+.demo-gallery > ul > li a.cat {
+  width: 30%;
+  max-width: 400px;
+} */
+
+.card_wrapper {
+  column-gap: 5px;
+  column-count: 2;
+}
+
+.card img {
+  width: 100%;
+}

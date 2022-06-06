@@ -20,6 +20,9 @@ function toggle(){
     popup.classList.toggle('active');
 }
 
+
+
+
 var playOn = document.getElementById('song');
 
 function playing(){
@@ -208,3 +211,12 @@ function create_unfinished_task(){
   function log(){
     console.log('---')
   }
+
+  // light gallery
+lightGallery(document.getElementById('lightgallery'), {
+  download: false,
+  share: false,
+  horizontalOrder: true,
+  transitionDuration: '0.2s',
+  stagger: 30
+});

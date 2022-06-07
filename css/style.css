@@ -1812,6 +1812,100 @@ input[type="radio"] {
   }
 }
 
+@media(max-width: 321px){
+  .title{
+    bottom: 65px;
+  }
+
+  .title .nama-undangan{
+    margin-bottom: -10px;
+  }
+
+  .title .nama-undangan h3{
+    margin: 0px !important;
+  }
+
+  .title h4{
+    font-size: 22px !important;
+  }
+
+  #popup .popup-background .title .sampul-top{
+    width: 60px;
+    margin-bottom: 5px !important;
+  }
+
+  #popup .popup-background .title a img{
+    width: 120px!important;
+    margin-top: 20px;
+  }
+
+  .till-death{
+    margin-bottom: 50px!important;
+  }
+
+  .containerr .content-top img{
+    margin-bottom: 40px;
+    margin-top: 40px;
+    width: 70px;
+  }
+
+  .count-down p{
+    letter-spacing: 1px;
+    font-size: 30px;
+  }
+
+  .time{
+    font-size: 35px!important;
+  }
+
+  .separator{
+    padding: 0 2px;
+  }  
+
+  .content-top h3{
+    margin: 0px;
+    font-size: 23px;
+  }
+
+  .pengantin{
+     margin-top: -120px;
+  }
+
+  .ornamen2{
+    top: -40px;
+  }
+
+  .ornamen2 img{
+    width: 95vw;
+    height: 37vh;
+  }
+
+  .ornamen-date{
+    top: 55px;
+  }
+
+  .arrum-section{
+    margin-top: 10px;
+  }
+
+  .amplop{
+    margin-top: 0px;
+  }
+
+  .sorry-protokol{
+    margin-top: 30px;
+  }
+  
+  .sorry-protokol .protokol img{
+    width: 300px;
+    height: 270px;
+  }
+
+  .wish-img{
+    margin-top: 70px;
+  }
+}
+
 
  @media(max-width: 576px){
  

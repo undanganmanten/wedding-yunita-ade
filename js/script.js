@@ -218,5 +218,10 @@ lightGallery(document.getElementById('lightgallery'), {
   share: false,
   horizontalOrder: true,
   transitionDuration: '0.2s',
-  stagger: 30
+  stagger: 30,
+  actualSize :true,
+  zoom: true,
+  autoplay: true,
+  progressBar: true,
+  fullScree: true
 });
